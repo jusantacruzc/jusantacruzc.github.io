@@ -1,0 +1,342 @@
+/* https://collectui.com/designers/slavakornilov/landing-page */
+
+/* scroll-behavior: smooth; */
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+p {
+    font-size: 35px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.icon {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.quote {
+    font-weight: 300;
+}
+
+.block {
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 4px 5px 8px 3px rgba(0, 0, 0, 0.1);
+}
+
+.mainImg {
+    display: flex;
+    width: 101vw;
+    height: 100%;
+}
+
+.image {
+    width: 33%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.image .imgTopic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.arrow {
+    position: absolute;
+    z-index: 1;
+}
+
+.arrow img {
+    filter: invert(100%);
+    margin-top: 90vh;
+    width: 100px;
+}
+
+.arrowBack {
+    rotate: 180deg;
+}
+
+.whiteBalck {
+    filter: sepia(90%);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.programming {
+    background-color: #2e96b3;
+}
+
+.programmingContainer {
+    height: 650px;
+    width: 1300px;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    line-height: 50px;
+
+}
+
+
+.programming1 {
+    background-color: #94DAD5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    line-height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.programming1 p {
+    text-align: center;
+    margin-top: 130px;
+    z-index: 2;
+    font-size: 50px;
+}
+
+.programming1 b {
+    font-size: 30px;
+}
+
+.programming1 .icon {
+    position: absolute;
+    z-index: 1;
+    height: 120px;
+    width: auto;
+    filter: opacity(95%);
+}
+
+.programming2 {
+    background-color: #FFCAB7;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    font-size: 10px;
+}
+
+.programming2 .icon {
+    position: absolute;
+    right: -10px;
+    top: 0px;
+    width: 400px;
+    height: auto;
+}
+
+.programming2 p {
+    width: 400px;
+}
+
+.programming3 {
+    background-color: #F0DBD8;
+}
+
+.programming3 .icon {
+    position: absolute;
+    right: 5px;
+    top: 120px;
+    width: 250px;
+    height: auto;
+}
+
+
+.programming4 {
+    background-color: #EBE8E8;
+}
+
+.programming4 .icon {
+    position: absolute;
+    right: 5px;
+    top: 120px;
+    width: 250px;
+    height: auto;
+}
+
+.desing {
+    background-color: #7dd8c7;
+}
+
+.desingContainer {
+    height: 650px;
+    width: 1300px;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 325px 325px;
+    line-height: 50px;
+}
+
+.desing1 {
+    background-color: #94DAD5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 60px;
+}
+
+.desing1 .icon {
+    width: 100px;
+    height: auto;
+}
+
+.desing2 {
+    background-color: #FFCAB7;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+
+}
+
+.desing2 p {
+    width: 420px;
+}
+
+.desing2 .icon {
+    position: absolute;
+    right: 0px;
+    width: 321px;
+    height: auto;
+}
+
+.desing3 {
+    background-color: #F0DBD8;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+}
+
+.desing3 .icon {
+    position: absolute;
+    right: 20px;
+    width: 321px;
+    height: auto;
+}
+
+.desing3 p {
+    width: 420px;
+}
+
+.desing4 {
+    background-color: #EBE8E8;
+}
+
+.desing4 p {
+    width: 300px;
+}
+
+.desing4 .icon {
+    position: absolute;
+    right: -0px;
+    top: 125px;
+    width: 200px;
+    height: auto;
+}
+
+
+.creatingContent {
+    background: rgb(125, 216, 199);
+    background: linear-gradient(36deg, rgba(125, 216, 199, 1) 22%, rgba(46, 150, 179, 1) 100%);
+}
+
+.creatingContentContainer {
+    height: 650px;
+    width: 1300px;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 325px 325px;
+    line-height: 60px;
+}
+
+.creatingContent p{
+    font-size: 40px;
+}
+
+.creatingContent1{
+    background-color: #94DAD5;
+    
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.creatingContent1 .icon{
+    position: absolute;
+    top: 225px;
+    width: 450px;
+    height: auto;
+}
+
+.creatingContent2{
+    background-color: #EBE8E8;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: flex;
+}
+
+.creatingContent2 .icon{
+    position: absolute;
+    top: 25px;
+    right:0px;
+    width: 300px;
+    height: auto;
+}
+
+
+.creatingContent2 p {
+    width: 500px;
+}
+
+.creatingContent3{
+    background-color: #FFCAB7;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3 ;
+}
+
+.creatingContent3 .icon{
+    position: absolute;
+    top: 35px;
+    right:0px;
+    width: 300px;
+    height: auto;
+}
+
+.creatingContent3 p {
+    width: 500px;
+}
